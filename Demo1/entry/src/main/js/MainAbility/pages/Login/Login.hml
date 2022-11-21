@@ -1,0 +1,23 @@
+<div class="container" style="background-image: url('src/main/js/MainAbility/pages/IMG/LOGO.png');">
+    <div class='title_img'>
+        <image src='src/main/js/MainAbility/pages/IMG/main.jpg' style="width: 50%;height: 100%;object-fit: contain;"></image>
+    </div>
+
+    <div class="midum">
+        <text class="title_text" >oPmU</text>
+        <input type="text" style="width: 80%;border-radius: 0px;margin-bottom: 20px;" placeholder="请输入账号" />
+
+        <input type="password" style="width: 80%;border-radius: 0px;" placeholder="请输入密码"/>
+    </div>
+
+    <div style="width: 80%;justify-content: space-between;margin-bottom: 100px;">
+        <text style="font-size: 16px;color: blue;">忘记密码</text>
+        <text style="font-size: 16px;color: blue;">快速注册</text>
+    </div>
+
+    <button on:click="login" style="width: 80%;height: 50px;border-radius: 5px;background-color: brown;margin-top: 100px;">登录</button>
+
+    <div clacc="about">
+        <text style="font-size: 16px;">简介</text>
+    </div>
+</div>
