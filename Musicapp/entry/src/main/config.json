@@ -50,7 +50,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/Play/Play"
+          "pages/Play/Play",
+          "pages/Mainpage/Mainpage"
         ],
         "name": ".MainAbility",
         "window": {
