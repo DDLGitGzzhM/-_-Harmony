@@ -10,5 +10,6 @@ export default {
         router.push({
             url:'pages/index/index'
         });
-    }
+    },
+
 }

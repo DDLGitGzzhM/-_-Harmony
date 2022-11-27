@@ -2,6 +2,8 @@
     <text class="title">
     </text>
 
+
+
     <div class="playlist-group" >
         <div class = "playlist-card">
             <image src="http://oss.tan8.com/resource/attachment/2018/201805/c57727fcb2e684662b430205baef5419.jpg" class="playlist-card-img" alt="暂时还没有"></image>
@@ -13,4 +15,5 @@
             <text class="playlist-card-name">欧美热歌</text>
         </div>
     </div>
+
 </div>

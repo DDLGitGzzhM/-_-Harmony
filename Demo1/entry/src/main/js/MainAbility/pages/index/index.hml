@@ -1,5 +1,30 @@
+<element name="login" src="../Login/login.hml"></element>
+<element name="Study" src="../Study/Study.hml"></element>
+<element name="message" src="../message/message.hml"></element>
 <div class="container">
     <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
+        首页
     </text>
+
+    <block if="{{ index == 1}}">
+        <login></login>
+    </block>
+
+    <block if="{{ index == 2}}">
+
+    </block>
+
+    <block if="{{ index == 3}}">
+        <study></study>
+    </block>
+
+    <block if="{{ index == 4}}">
+        <message></message>
+    </block>
+    <toolbar style="position: fixed; bottom: 0px;">
+        <toolbar-item icon="common/ic_public_home.png"  value='登录' on:click="changeMenu(1)"></toolbar-item>
+        <toolbar-item icon="common/ic_public_app.png"  value='首页' on:click="changeMenu(2)"></toolbar-item>
+        <toolbar-item icon="common/ic_public_comments.png"  value='首页' on:click="changeMenu(3)"></toolbar-item>
+        <toolbar-item icon="common/ic_public_contacts.png"   value='首页' on:click="changeMenu(4)"></toolbar-item>
+    </toolbar>
 </div>

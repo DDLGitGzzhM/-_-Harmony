@@ -49,9 +49,13 @@
     "js": [
       {
         "pages": [
-          "pages/index/index",
+          "pages/Login/Login",
           "pages/Play/Play",
-          "pages/Mainpage/Mainpage"
+          "pages/Mainpage/Mainpage",
+          "pages/Mine/Mine",
+          "pages/Setting/Setting",
+          "pages/MainContainer/MainContainer",
+          "pages/Favourite/Favourite"
         ],
         "name": ".MainAbility",
         "window": {
