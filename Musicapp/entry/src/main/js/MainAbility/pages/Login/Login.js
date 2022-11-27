@@ -8,7 +8,7 @@ export default {
     },
     login(){
         router.push({
-            url:'pages/Mainpage/Mainpage'
+            url:'pages/MainContainer/MainContainer'
         });
     }
 }

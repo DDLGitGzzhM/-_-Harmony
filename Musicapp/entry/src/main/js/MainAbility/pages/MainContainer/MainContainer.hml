@@ -22,6 +22,7 @@
     </block>
 
     <toolbar style="position : fixed; bottom : 0px;">
+<!--  后期肯定要改 图标的 icon/{{ flag == 1 ? "xxx.png" : "xxx.png"}} -->
         <toolbar-item icon='common/Icon/location.png' value='主页' on:click="changebar(1)"></toolbar-item>
         <toolbar-item icon='common/Icon/heart.png' value='我的' on:click="changebar(2)"></toolbar-item>
         <toolbar-item icon='common/Icon/diamond.png' value='关注' on:click="changebar(3)"></toolbar-item>

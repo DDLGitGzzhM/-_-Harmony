@@ -1,19 +1,48 @@
 <div class="container">
-    <text class="title">
-    </text>
-
-
-
-    <div class="playlist-group" >
-        <div class = "playlist-card">
-            <image src="http://oss.tan8.com/resource/attachment/2018/201805/c57727fcb2e684662b430205baef5419.jpg" class="playlist-card-img" alt="暂时还没有"></image>
-            <text class="playlist-card-name">华语热歌</text>
-        </div>
-
-        <div class = "playlist-card">
-            <image src="https://c-ssl.duitang.com/uploads/blog/202108/12/20210812154520_dc3c1.jpeg" class="playlist-card-img" alt="暂时还没有"></image>
-            <text class="playlist-card-name">欧美热歌</text>
-        </div>
+    <div class="search">
+<!--        headericon 设置图标-->
+        <input type="text" id="ti_input" headericon="" placeholder="周杰伦"></input>
     </div>
+
+<!--    设置轮播图-->
+
+
+    <div class="play_img">
+        <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper">
+            <div style="width: 100%; height: 100%;">
+                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            </div>
+            <div style="width: 100%; height: 100%;">
+                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            </div>
+            <div style="width: 100%; height: 100%;">
+                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            </div>
+            <div style="width: 100%; height: 100%;">
+                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            </div>
+            <div style="width: 100%; height: 100%;">
+                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            </div>
+        </swiper>
+    </div>
+
+
+
+
+
+
+
+<!--    <div class="playlist-group" >-->
+<!--        <div class = "playlist-card">-->
+<!--            <image src="http://oss.tan8.com/resource/attachment/2018/201805/c57727fcb2e684662b430205baef5419.jpg" class="playlist-card-img" alt="暂时还没有"></image>-->
+<!--            <text class="playlist-card-name">华语热歌</text>-->
+<!--        </div>-->
+
+<!--        <div class = "playlist-card">-->
+<!--            <image src="https://c-ssl.duitang.com/uploads/blog/202108/12/20210812154520_dc3c1.jpeg" class="playlist-card-img" alt="暂时还没有"></image>-->
+<!--            <text class="playlist-card-name">欧美热歌</text>-->
+<!--        </div>-->
+<!--    </div>-->
 
 </div>
