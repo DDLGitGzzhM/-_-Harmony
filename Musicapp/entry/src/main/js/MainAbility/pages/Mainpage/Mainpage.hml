@@ -8,29 +8,43 @@
 
 
     <div class="play_img">
-        <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;" for="{{swiperImage}}">
-            <div style="width: 100%; height: 100%;">
+        <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;">
+            <div style="width: 100%; height: 100%;" for="{{swiperImage}}">
                 <image src="{{ $item }}"  style="width: 100%;height: 100%;object-fit: contain;"></image>
-            </div>
-            <div style="width: 100%; height: 100%;">
-                <image src="{{ $item }}"  style="width: 100%;height: 100%;object-fit: contain;"></image>
-            </div>
-            <div style="width: 100%; height: 100%;">
-                <image src="{{ $item }}"  style="width: 100%;height: 100%;object-fit: contain;"></image>
-            </div>
-            <div style="width: 100%; height: 100%;">
-                <image src="{{ $item }}"  style="width: 100%;height: 100%;object-fit: contain;"></image>
-            </div>
-            <div style="width: 100%; height: 100%;">
-                <image src="https://s2.best-wallpaper.net/wallpaper/1920x1080/1712/Furry-dog-front-view-eyes_1920x1080.jpg"  style="width: 100%;height: 100%;object-fit: contain;"></image>
             </div>
         </swiper>
     </div>
 
 
 
-
-
+<!-- 跳转 还没有设置跳转 -->
+    <div style="width: 70%;margin-top: 20px;justify-content: space-between;">
+        <div style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src="" alt="wtf"
+                    style="width: 60px;height: 60px;object-fit: contain;"></image>
+            <text style="font-size: 16px;">课程</text>
+        </div>
+        <div style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src="" alt="wtf"
+                   style="width: 60px;height: 60px;object-fit: contain;"></image>
+            <text style="font-size: 16px;">课程</text>
+        </div>
+        <div style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src="" alt="wtf"
+                   style="width: 60px;height: 60px;object-fit: contain;"></image>
+            <text style="font-size: 16px;">课程</text>
+        </div>
+        <div style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src="" alt="wtf"
+                   style="width: 60px;height: 60px;object-fit: contain;"></image>
+            <text style="font-size: 16px;">课程</text>
+        </div>
+        <div style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src="" alt="wtf"
+                   style="width: 60px;height: 60px;object-fit: contain;"></image>
+            <text style="font-size: 16px;">课程</text>
+        </div>
+    </div>
 
 
 <!--    <div class="playlist-group" >-->
