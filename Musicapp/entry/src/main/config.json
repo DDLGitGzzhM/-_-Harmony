@@ -55,7 +55,9 @@
           "pages/Mine/Mine",
           "pages/Setting/Setting",
           "pages/MainContainer/MainContainer",
-          "pages/Favourite/Favourite"
+          "pages/Favourite/Favourite",
+          "pages/Ranklist/Ranklist",
+          "pages/official/official"
         ],
         "name": ".MainAbility",
         "window": {

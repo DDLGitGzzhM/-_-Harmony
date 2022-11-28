@@ -1,0 +1,46 @@
+<element src="../official/official.hml" name="official"></element>
+<div class="container">
+<!--    顶部 -->
+    <div  class = "top_container">
+        <image id = "top_left_button" src="" alt="text"></image>
+        <text style="font-size: 40px;">排行榜</text>
+        <text></text>
+    </div>
+    
+<!--    选择栏 -->
+    <div class = "top_choose_container" >
+        <div style="margin-top: 5px;" for = '{{top_choose}}'>
+            <text  on:click = 'change_top_chooose_flag({{$item.flag}})' style="font-size: 25px;
+                    border-bottom-style: solid;border-bottom-color: red;
+                    border-bottom-width: {{top_choose_flag == $item.flag ? '3px' : '0px'}};
+                    color: {{top_choose_flag == $item.flag ? 'black' : 'gray'}};
+                    ;font-weight: bold;">{{$item.name}}</text>
+        </div>
+    </div>
+<!--    -->
+    <block if = '{{top_choose_flag == 1}}'>
+        <official></official>
+    </block>
+
+    <block if = '{{top_choose_flag == 2}}'>
+        <text>周杰伦</text>
+    </block>
+
+    <block if = '{{top_choose_flag == 3}}'>
+        <text>周杰伦</text>
+    </block>
+
+    <block if = '{{top_choose_flag == 4}}'>
+        <text>周杰伦</text>
+    </block>
+
+<!--    下面的播放-->
+    <div style="height: 120px;width: 100%;border-top: 1px solid silver;">
+        <image src=" " alt= "c1" style="border-radius: 5px;height: 60px;width: 60px;left: 80px;margin-top: 20px;"></image>
+        <text style="left: 100px;margin-top: 20px;">周杰伦的歌XXXXXXXXX</text>
+        <image src=" " alt= "c1" style="border-radius: 5px;height: 40px;width: 40px;left: 18%;margin-top: 30px;"></image>
+        <image src=" " alt= "c1" style="border-radius: 5px;height: 40px;width: 40px;left: 23%;margin-top: 30px;"></image>
+    </div>
+
+
+</div>
