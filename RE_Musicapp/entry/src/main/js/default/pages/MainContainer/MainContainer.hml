@@ -1,0 +1,31 @@
+<element src="../Favourite/Favourite.hml" name="favourite"></element>
+<element src="../Mainpage/Mainpage.hml" name="mainpage"></element>
+<element src="../Mine/Mine.hml" name="mine"></element>
+<element src="../Setting/Setting.hml" name="setting"></element>
+<div class="container">
+
+    <block if="{{ flag == 1}}">
+        <mainpage></mainpage>
+    </block>
+
+
+    <block if="{{ flag == 2}}">
+        <mine></mine>
+    </block>
+
+    <block if="{{ flag == 3}}">
+        <favourite></favourite>
+    </block>
+
+    <block if="{{ flag == 4}}">
+        <setting></setting>
+    </block>
+
+    <toolbar style="position : fixed; bottom : 0px;">
+<!--  后期肯定要改 图标的 icon/{{ flag == 1 ? "xxx.png" : "xxx.png"}} -->
+        <toolbar-item icon='common/Icon/location.png' value='主页' on:click="changebar(1)"></toolbar-item>
+        <toolbar-item icon='common/Icon/heart.png' value='我的' on:click="changebar(2)"></toolbar-item>
+        <toolbar-item icon='common/Icon/diamond.png' value='关注' on:click="changebar(3)"></toolbar-item>
+        <toolbar-item icon='common/Icon/heart.png' value='设置' on:click="changebar(4)"></toolbar-item>
+    </toolbar>
+</div>

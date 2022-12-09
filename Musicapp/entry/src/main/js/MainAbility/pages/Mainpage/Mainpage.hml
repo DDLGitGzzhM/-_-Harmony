@@ -1,99 +1,41 @@
+<element src="../MainChoose_1/MainChoose_1.hml" name="mainchoose1"></element>
+<element src="../MainChoose_2/MainChoose_2.hml" name="mainchoose2"></element>
 <div class="container">
-    <div class="search">
-<!--        headericon 设置图标-->
+    <div class="search" style="flex-direction: row;">
+        <image  src="/Img/tao.png" style="width: 68px;height: 68px;top:40px;right: 20px;border-radius: 100px;"></image>
         <input type="text" id="ti_input" headericon="" placeholder="周杰伦"></input>
     </div>
 
 <!--    设置轮播图-->
 
 
-    <div class="play_img">
+    <div class="play_img" style="width: 95%;margin-top:60px;background-color: white;border-radius: 50px;">
         <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;">
-            <div style="width: 100%; height: 100%;" for="{{swiperImage}}">
-                <image src="{{ $item }}"  style="width: 100%;height: 100%;object-fit: contain;"></image>
+            <div style="width: 96%; height: 96%;" >
+                <mainchoose1></mainchoose1>
+            </div>
+            <div style="width: 96%; height: 96%;" >
+                <mainchoose2></mainchoose2>
             </div>
         </swiper>
     </div>
 
 
-
-<!-- 跳转 还没有设置跳转 -->
-    <div style="width: 70%;margin-top: 20px;justify-content: space-between;">
-        <div  for="{{quickStart}}" style="flex-direction: column;justify-content: center;align-content: center;">
-            <image src="{{$item.image}}" alt="wtf"
-                    style="width: 60px;height: 60px;object-fit: contain;"></image>
-            <text style="font-size: 16px;">{{$item.name}}</text>
-        </div>
+    <div class="play_img" style="width: 95%;height: 24%;margin-top:10px;background-color: white;border-radius: 50px;">
+            <image src="/Img/待定.png" style="border-radius: 50px;"></image>
     </div>
 
-<!--下面的-->
-    
-    <div style="width: 96%;justify-content: space-between;margin-top: 20px;align-items: flex-end;">
-        <text style="font-size: 18px;">今日推荐</text>
-        <div>
-            <text style="font-size: 16px;color: gray;">查看更多</text>
 
-            <image src="" alt="wtf" style="width: 14px;height: 14px;object-fit: contain;"></image>
-        </div>
-    </div>
-    
-<!--    写卡片  -->
-    <div style="width: 96%;margin-top: 20px;flex-wrap: wrap;">
-        <div for = "{{startClass}}" style="width: 50%;height: 200px;flex-direction: column;left: 50px;">
-            <div style="background-image: url('{{$item.image}}');width: 80%;height: 120px;background-repeat: no-repeat;background-size: cover;border-top-right-radius: 5px;border-top-left-radius: 5px;">
-            </div>
-            <div style="width: 80%;height: 80px;flex-direction: column;justify-content: space-around;">
-                <text style="font-size: 18px;">{{$item.name}}</text>
-                <div style="width: 80%;justify-content: space-between;align-items: center;">
-                    <text style="font-size: 16px;color: gray;">{{$item.master}}</text>
-                    <text style="font-size: 16px;color: gray;">{{$item.stNum}}</text>
-                </div>
-            </div>
+    <div class="play_img" style="width: 95%;height: 40%;margin-top:20px;">
+        <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;
+                width: 49%;height: 100%;background-color: green;border-radius: 50px;">
+            <image src="/Img/电冰箱.png" style="border-radius: 10px;"></image>
+        </swiper>
+        <div style="margin-left: 20px;height: 100%;width: 49%;border-radius: 50px;background-color: green;">
+            <image src="/Img/全名淘宝节.png" style="border-radius: 10;"></image>
         </div>
     </div>
 
 
-    
-<!--    -->
-    <div style="width: 96%;justify-content: space-between;margin-top: 20px;align-items: flex-end;">
-        <text style="font-size: 18px;">热门音乐</text>
-        <div>
-            <text style="font-size: 16px;color: gray;">查看更多</text>
-
-            <image src="" alt="wtf" style="width: 14px;height: 14px;object-fit: contain;"></image>
-        </div>
-    </div>
-
-<!--  继续写 卡片 -->
-
-    <div style="width: 96%;margin-top: 20px;flex-wrap: wrap;">
-        <div for = "{{hotCourses}}" style="width: 32%;height: 200px;flex-direction: column;left: 50px;">
-            <stack>
-                <div style="background-image: url('{{$item.image}}');width: 80%;height: 120px;background-repeat: no-repeat;background-size: cover;border-radius: 5px;">
-                </div>
-                <rating numstars="5" rating="{{$item.score}}" style="width: 100px;height: 20px;"></rating>
-                <text style="width: 80%;text-align: center;font-size: 14px;color: white;background-color: rgba(120,120,120,0.5);top: 105px;">{{$item.stNum}}</text>
-            </stack>
-
-            <div style="width: 80%;height: 80px;flex-direction: column;justify-content: space-around;">
-                <text style="font-size: 18px;max-lines: 1;text-overflow: ellipsis;">{{$item.name}}</text>
-                <text style="font-size: 16px;color: gray;">{{$item.teacher}}</text>
-                <text style="font-size: 16px;color: gray;">{{$item.stNum}}</text>
-            </div>
-        </div>
-    </div>
-
-
-<!--    <div class="playlist-group" >-->
-<!--        <div class = "playlist-card">-->
-<!--            <image src="http://oss.tan8.com/resource/attachment/2018/201805/c57727fcb2e684662b430205baef5419.jpg" class="playlist-card-img" alt="暂时还没有"></image>-->
-<!--            <text class="playlist-card-name">华语热歌</text>-->
-<!--        </div>-->
-
-<!--        <div class = "playlist-card">-->
-<!--            <image src="https://c-ssl.duitang.com/uploads/blog/202108/12/20210812154520_dc3c1.jpeg" class="playlist-card-img" alt="暂时还没有"></image>-->
-<!--            <text class="playlist-card-name">欧美热歌</text>-->
-<!--        </div>-->
-<!--    </div>-->
 
 </div>

@@ -1,0 +1,14 @@
+
+<div class="container">
+    <div>
+        <text class="title">
+            {{title}}
+        </text>
+    </div>
+<!--    <text>slider start value is {{startValue}}</text>-->
+<!--    <text>slider current value is {{currentValue}}</text>-->
+<!--    <text>slider end value is {{endValue}}</text>-->
+    <button on:click="play">播放</button>
+
+    <slider min="0" max="100" value="{{value}}" onchange="setvalue" ></slider>
+</div>

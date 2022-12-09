@@ -1,0 +1,2 @@
+rootProject.name = 'RE_Musicapp'
+include ':entry'

@@ -57,7 +57,11 @@
           "pages/MainContainer/MainContainer",
           "pages/Favourite/Favourite",
           "pages/Ranklist/Ranklist",
-          "pages/official/official"
+          "pages/official/official",
+          "pages/Message/Message",
+          "pages/Shopping/Shopping",
+          "pages/MainChoose_1/MainChoose_1",
+          "pages/MainChoose_2/MainChoose_2"
         ],
         "name": ".MainAbility",
         "window": {
