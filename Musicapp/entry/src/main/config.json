@@ -61,7 +61,8 @@
           "pages/Message/Message",
           "pages/Shopping/Shopping",
           "pages/MainChoose_1/MainChoose_1",
-          "pages/MainChoose_2/MainChoose_2"
+          "pages/MainChoose_2/MainChoose_2",
+          "pages/userCenter/userCenter"
         ],
         "name": ".MainAbility",
         "window": {

@@ -52,7 +52,8 @@
           "pages/index/index",
           "pages/Login/Login",
           "pages/Study/Study",
-          "pages/message/message"
+          "pages/message/message",
+          "pages/userCenter/userCenter"
         ],
         "name": ".MainAbility",
         "window": {
