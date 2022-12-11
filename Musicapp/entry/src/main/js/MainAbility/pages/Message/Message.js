@@ -1,8 +1,27 @@
 export default {
     data: {
-        title: "消息"
+        title: "消息",
+        message_shop: [],
     },
     onInit() {
         this.title = "消息";
+        this.message_shop = [
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+            {url: "/Img/Leaftree.png" , Title : "Leaftree旗舰店" , date : "星期一" , message : "如果消息较多打扰到您。可以点此拒绝消息"},
+        ]
     }
 }
