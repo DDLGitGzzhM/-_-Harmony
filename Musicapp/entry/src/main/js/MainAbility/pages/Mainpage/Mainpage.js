@@ -62,5 +62,5 @@ export default {
                 name: '周杰伦' , teacher: '周杰伦', stuNum: '周杰伦' , hour : '周杰伦' , image : this.gou
             },
         ]
-    }
+    },
 }

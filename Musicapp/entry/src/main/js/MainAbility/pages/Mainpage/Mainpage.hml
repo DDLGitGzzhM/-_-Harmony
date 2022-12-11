@@ -1,6 +1,7 @@
 <element src="../MainChoose_1/MainChoose_1.hml" name="mainchoose1"></element>
 <element src="../MainChoose_2/MainChoose_2.hml" name="mainchoose2"></element>
 <div class="container">
+
     <div class="search" style="flex-direction: row;">
         <image  src="/Img/tao.png" style="width: 68px;height: 68px;top:40px;right: 20px;border-radius: 100px;"></image>
         <input type="text" id="ti_input" headericon="" placeholder="周杰伦"></input>
@@ -9,7 +10,7 @@
 <!--    设置轮播图-->
 
 
-    <div class="play_img" style="width: 95%;margin-top:60px;background-color: white;border-radius: 50px;">
+    <div class="play_img" style="width: 95%;height:300px;margin-top:60px;background-color: white;border-radius: 50px;">
         <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;">
             <div style="width: 96%; height: 96%;" >
                 <mainchoose1></mainchoose1>
@@ -21,21 +22,67 @@
     </div>
 
 
-    <div class="play_img" style="width: 95%;height: 24%;margin-top:10px;background-color: white;border-radius: 50px;">
+    <div class="play_img" style="width: 95%;height:300px;margin-top:10px;background-color: white;border-radius: 50px;">
             <image src="/Img/待定.png" style="border-radius: 50px;"></image>
     </div>
 
 
-    <div class="play_img" style="width: 95%;height: 40%;margin-top:20px;">
+    <div class="play_img" style="width: 95%;height:500px;margin-top:20px;">
         <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;
                 width: 49%;height: 100%;background-color: green;border-radius: 50px;">
             <image src="/Img/电冰箱.png" style="border-radius: 10px;"></image>
         </swiper>
-        <div style="margin-left: 20px;height: 100%;width: 49%;border-radius: 50px;background-color: green;">
+        <div style="margin-left: 20px;width: 49%;border-radius: 50px;background-color: green;">
             <image src="/Img/全名淘宝节.png" style="border-radius: 10;"></image>
         </div>
     </div>
+    
+    <div class = "store_container" style="width: 100%;height: 100%;background-color: rgb(240,240,240);margin-top: 10px;border-radius: 20px;align-content: flex-start;flex-wrap: wrap;">
 
+        <div style="width: 320px;height: 480px;margin-top: 10px;margin-left: 25px;background-color: white;border-radius: 10px;flex-direction: column;">
+            <image src="/Img/手套.png" style="width: 100%;height: 70%;border-top-left-radius: 10px;border-top-right-radius: 10px;"></image>
+             <div style="height: 30%;flex-direction: column;">
+                <text style="margin-left: 3%;">库存正品59东飞手套五</text>
+                <text style="margin-left: 3%;">
+                    <span style="font-size: 50px;color: rgb(255,76,0);">¥69</span>
+                    <span style="font-size: 20px;color: gray;">100+人付款</span>
+                </text>
+                <text style="font-size: 22px;color: rgb(185,162,131);margin-left: 3%;">1000+饰品控收藏</text>
+            </div>
+
+        </div>
+
+        <div style="width: 320px;height: 580px;margin-top: 10px;margin-left: 25px;background-color: white;border-radius: 10px;flex-direction: column;">
+            <image src="/Img/R101.png" style="width: 100%;height: 80%;border-top-left-radius: 10px;border-top-right-radius: 10px;"></image>
+            <div style="height: 20%;flex-direction: column;">
+
+                <text style="margin-left: 3%;margin-top: 10px;">R101 【法国、瑞士】</text>
+                
+                <text style="margin-left: 3%;margin-top: 5px;">
+                    <span style="font-size: 50px;color: rgb(255,76,0);">¥7.3</span>
+                    <span style="font-size: 20px;color: gray;">12+人付款</span>
+                </text>
+            </div>
+
+        </div>
+
+        <div style="width: 320px;height: 480px;margin-top: 10px;margin-left: 25px;background-color: white;border-radius: 10px;flex-direction: column;">
+            <image src="/Img/MAX97.png" style="width: 100%;height: 70%;border-top-left-radius: 10px;border-top-right-radius: 10px;"></image>
+            <div style="height: 30%;flex-direction: column;">
+
+                <text style="margin-left: 3%;margin-top: 10px;">耐克 Nike Air Max 97</text>
+
+                <text style="margin-left: 3%;margin-top: 10px;">
+                    <span style="font-size: 50px;color: rgb(255,76,0);">¥545.2</span>
+                    <span style="color: rgb(255,76,0);">券后价</span>
+                    <span style="font-size: 20px;color: gray;">14+人付款</span>
+                </text>
+            </div>
+
+            <div style="border:1px solid #ff9a64;height: 20px;width: 100px;margin-top: 10px;margin-left: 10px;"></div>
+
+        </div>
+    </div>
 
 
 </div>
