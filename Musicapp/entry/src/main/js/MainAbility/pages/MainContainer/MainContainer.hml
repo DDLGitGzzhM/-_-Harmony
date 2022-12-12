@@ -3,10 +3,11 @@
 <element src="../userCenter/userCenter.hml" name="mine"></element>
 <element src="../Message/Message.hml" name="message"></element>
 <element src="../Shopping/Shopping.hml" name="shopping"></element>
+<element src="../Mainpage_Title/Mainpage_Title.hml" name="mainpage_title"></element>
 <div class="container">
 
     <block if="{{ flag == 1}}">
-        <mainpage></mainpage>
+        <mainpage_title></mainpage_title>
     </block>
 
 

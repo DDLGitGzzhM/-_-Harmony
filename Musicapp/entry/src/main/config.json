@@ -64,7 +64,8 @@
           "pages/MainChoose_2/MainChoose_2",
           "pages/userCenter/userCenter",
           "pages/ShoppingDetail_Container/ShoppingDetail_Container",
-          "pages/ShoppingDetail/ShoppingDetail"
+          "pages/ShoppingDetail/ShoppingDetail",
+          "pages/Mainpage_Title/Mainpage_Title"
         ],
         "name": ".MainAbility",
         "window": {
