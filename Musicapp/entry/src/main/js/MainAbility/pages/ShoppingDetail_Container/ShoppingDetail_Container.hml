@@ -1,0 +1,33 @@
+<element src="../ShoppingDetail/ShoppingDetail.hml" name="shopping"></element>
+<div class="container">
+
+    <div class="search" style="flex-direction: row;height: 100px;">
+            <image src="/assets/icon/le.png" style="width: 30px;height: 30px;margin-top: 30px;"></image>
+            <input type="text"  headericon="" placeholder="周杰伦" style="background-color: white;margin-top: 20px;width: 500px;height: 50px;"></input>
+            <image src="/Img/cart.png" style="width: 40px;height: 40px;margin-top: 25px; margin-left: 10px;"></image>
+    </div>
+
+<!--    <div class = "store_container" style="width: 100%;height: 100%;background-color: rgb(240,240,240);margin-top: 10px;align-content: flex-start;flex-wrap: wrap;">-->
+<!--        <div class="play_img" style="width: 100%;height:300px;margin-top:60px;background-color: white;border-radius: 50px;">-->
+<!--            <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;">-->
+<!--                <image src="/Img/R101/1.JPG"></image>-->
+<!--                <image src="/Img/R101/2.JPG"></image>-->
+<!--                <image src="/Img/R101/3.JPG"></image>-->
+<!--                <image src="/Img/R101/4.JPG"></image>-->
+<!--                <image src="/Img/R101/5.JPG"></image>-->
+<!--            </swiper>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+    <shopping></shopping>
+    <toolbar style="position : fixed; bottom : 0px;">
+    <!--  后期肯定要改 图标的 icon/{{ flag == 1 ? "xxx.png" : "xxx.png"}} -->
+        <toolbar-item icon='/Img/home.png' value='首页' on:click="changebar(1)"></toolbar-item>
+        <toolbar-item icon='/Img/wechat.png' value='消息' on:click="changebar(2)"></toolbar-item>
+        <toolbar-item icon='/Img/cart.png' value='购物车' on:click="changebar(3)"></toolbar-item>
+        <toolbar-item icon='/Img/mytb.png' value='我的淘宝' on:click="changebar(4)"></toolbar-item>
+
+    </toolbar>
+
+</div>

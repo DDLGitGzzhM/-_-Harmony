@@ -1,0 +1,112 @@
+<div class="container">
+  
+    <div style="width: 100%;height:600px;">
+        <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;
+                align-items: center;">
+            <image src="/Img/R101/1.JPG" style="width: 500px;margin-left: 100px;"></image>
+            <image src="/Img/R101/2.JPG" style="width: 500px;margin-left: 100px;"></image>
+            <image src="/Img/R101/3.JPG" style="width: 500px;margin-left: 100px;"></image>
+            <image src="/Img/R101/4.JPG" style="width: 500px;margin-left: 100px;"></image>
+            <image src="/Img/R101/5.JPG" style="width: 500px;margin-left: 100px;"></image>
+            </swiper>
+    </div>
+
+
+    <div  style="width: 97%;height:200px;margin-top:10px;background-color: white;border-radius: 30px;">
+        <div style="height: 100%;flex-direction: column;">
+            <text style="margin-left: 3%;margin-top: 10px;">
+                <span style="font-size: 50px;color: rgb(255,76,0);">¥7.3</span>
+            </text>
+            <text style="margin-left: 3%;margin-top: 10px;">R101【法国、瑞士】 Eugene Grasset-植物花卉装饰图案插图图库</text>
+        </div>
+    </div>
+
+
+    <div  style="width: 97%;height:150px;margin-top:10px;background-color: white;border-radius: 30px;">
+        <div style="height: 100%;flex-direction: column;">
+            <div style="margin-left: 3%;margin-top: 40px;flex-direction: row;margin-left: 30px;">
+                <text style="color: gray;font-size: 25px;">发货</text>
+                <text style="color: black;font-size: 25px;margin-left: 60px;">河北保定</text>
+                <text style="color: black;font-size: 25px;margin-left: 60px;">快递免运费</text>
+                <text style="color: black;font-size: 25px;margin-left: 180px;color: gray;">月销12</text>
+            </div>
+
+            <div style="margin-left: 3%;margin-top: 30px;flex-direction: row;margin-left: 30px;">
+                <text style="color: gray;font-size: 25px;">保障</text>
+                <text style="color: black;font-size: 25px;margin-left: 60px;">7天无理由</text>
+            </div>
+        </div>
+    </div>
+
+    <div  style="width: 97%;height:200px;margin-top:10px;background-color: white;border-radius: 30px;">
+        <div style="height: 100%;flex-direction: column;">
+            <div style="margin-left: 3%;margin-top: 30px;border-bottom-width: 1px;border-bottom-color: gray;">
+                <text style="font-size: 30px;color: black;">宝贝评价(51)</text>
+                <text style="font-size: 25px;color: rgb(255,76,0);margin-left: 400px;">查看全部</text>
+            </div>
+            <div style="margin-left: 3%;margin-top: 23px;flex-direction: column;">
+                <text style="font-size: 30px;color: black;">问大家</text>
+                <text style="color: black;font-size: 25px;margin-left: 100px;color: gray;">宝贝好不好,问问已买过的人</text>
+            </div>
+        </div>
+    </div>
+
+    <div  style="width: 97%;margin-top:10px;height:1000px;background-color: white;border-radius: 30px;flex-wrap: wrap;">
+        <div style="height: 200px;width: 100%;margin-top: 40px;border-bottom-color: gray;border-bottom-width: 2px;flex-direction: column;">
+            <div style="flex-direction: row;margin-left: 20px;">
+                <image src="/Img/油画.jpg" style="height: 100px;width: 100px;border-radius: 10px;"></image>
+                
+                <div style="flex-direction: row;margin-left: 10px;">
+                    <div style="flex-direction: column;">
+                        <text style="font-size: 30px;color: black;">油画资源地</text>
+                        <image src="/Img/标.png" style="width: 160px;height: 50px;margin-top: 10px;"></image>
+                    </div>
+
+                    <div style="flex-direction: column;margin-left: 200px;">
+                        <text><span style="font-size: 25px;">宝贝描述4.9 </span><span style="font-size: 25px;color: rgb(255,76,0);">高</span></text>
+                        <text><span style="font-size: 25px;">卖家描述4.9 </span><span style="font-size: 25px;color: rgb(255,76,0);">高</span></text>
+                        <text><span style="font-size: 25px;">物流描述4.9 </span><span style="font-size: 25px;color: rgb(255,76,0);">高</span></text>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="flex-direction: row;justify-content: space-around;margin-top: 20px;">
+                <button value="进店逛逛"></button>
+                <button value="全部宝贝" style="margin-left: 20px;"></button>
+            </div>
+        </div>
+
+
+        <div style="height:400px;width: 100%;flex-direction: column;">
+            <div style="margin-left: 3%;margin-top: 30px;height: 50px;">
+                <text style="font-size: 30px;color: black;">店铺推荐</text>
+                <text style="font-size: 25px;color: rgb(255,76,0);margin-left: 400px;">查看全部</text>
+            </div>
+
+            <div style="height: 470px;margin-top: 40px;flex-wrap: wrap;">
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/7.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/8.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/9.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/10.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/11.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+
+                <div style="height: 300px;width: 200px;background-color: black;margin-left: 20px;margin-top: 20px;">
+                    <image src="/Img/R101/12.JPG" style="height: 200px;width: 250px;"></image>
+                </div>
+             </div>
+
+        </div>
+    </div>
+
+</div>

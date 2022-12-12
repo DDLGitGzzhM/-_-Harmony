@@ -1,0 +1,12 @@
+.container {
+    background-color:  rgb(240,240,240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    overscroll-effect: none;
+    scrollbar-width: 0px;
+    overflow: scroll ;
+}
