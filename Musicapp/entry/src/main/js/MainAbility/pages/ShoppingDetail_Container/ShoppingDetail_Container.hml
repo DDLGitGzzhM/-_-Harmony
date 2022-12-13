@@ -20,14 +20,39 @@
 <!--    </div>-->
 
 
-    <shopping></shopping>
-    <toolbar style="position : fixed; bottom : 0px;">
-    <!--  后期肯定要改 图标的 icon/{{ flag == 1 ? "xxx.png" : "xxx.png"}} -->
-        <toolbar-item icon='/Img/home.png' value='首页' on:click="changebar(1)"></toolbar-item>
-        <toolbar-item icon='/Img/wechat.png' value='消息' on:click="changebar(2)"></toolbar-item>
-        <toolbar-item icon='/Img/cart.png' value='购物车' on:click="changebar(3)"></toolbar-item>
-        <toolbar-item icon='/Img/mytb.png' value='我的淘宝' on:click="changebar(4)"></toolbar-item>
+    <shopping>
 
-    </toolbar>
+    </shopping>
+
+
+    <div style="position: fixed;bottom: 0px;z-index: 9999;height: 80px;width: 100%;justify-content: space-around;background-color: white;">
+        <div style="flex-direction: column;">
+            <image src="/Img/home.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">首页</text>
+        </div>
+
+        <div style="flex-direction: column;">
+            <image src="/Img/客服.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">客服</text>
+        </div>
+
+        <div style="flex-direction: column;">
+            <image src="/Img/收藏.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">收藏</text>
+        </div>
+
+        <div>
+            <div style="flex-direction: column;width: 160px;height: 300px;" on:click="gouwuche">
+                <image src="/Img/加入购物车.png" style="width: 160px;height: 150px;margin-top: 5px;border-top-left-radius: 50px;border-bottom-left-radius: 50px;"></image>
+                <text style="font-size: 20px;">加入购物车</text>
+            </div>
+
+            <div style="flex-direction: column;width: 160px;height: 200px;">
+                <image src="/Img/立即购买.png" style="width: 160px;height: 100px;margin-top: 5px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;"></image>
+                <text style="font-size: 20px;">立即购买</text>
+            </div>
+        </div>
+    </div>
+
 
 </div>

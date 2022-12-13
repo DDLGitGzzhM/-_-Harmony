@@ -1,6 +1,8 @@
+
 export default {
     data: {
-        title: ""
+        title: "",
+        detail:[],
     },
     onInit() {
         this.title = "购物车";

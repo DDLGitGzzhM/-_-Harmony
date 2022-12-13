@@ -50,14 +50,11 @@
       {
         "pages": [
           "pages/Login/Login",
-          "pages/Play/Play",
+
           "pages/Mainpage/Mainpage",
-          "pages/Mine/Mine",
-          "pages/Setting/Setting",
+
           "pages/MainContainer/MainContainer",
-          "pages/Favourite/Favourite",
-          "pages/Ranklist/Ranklist",
-          "pages/official/official",
+
           "pages/Message/Message",
           "pages/Shopping/Shopping",
           "pages/MainChoose_1/MainChoose_1",

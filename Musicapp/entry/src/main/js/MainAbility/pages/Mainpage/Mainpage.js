@@ -1,4 +1,4 @@
-
+import router from '@system.router'
 export default {
     data: {
         title: "",
@@ -63,4 +63,9 @@ export default {
             },
         ]
     },
+    R101(){
+        router.push ({
+            uri: 'pages/ShoppingDetail_Container/ShoppingDetail_Container',
+        });
+    }
 }
