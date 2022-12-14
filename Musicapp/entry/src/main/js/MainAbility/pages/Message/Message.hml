@@ -1,299 +1,161 @@
 <div class="container">
 
-    <div style="align-items: flex-start;margin-left: 10px">
-        <image src="/Img/tao.png" style="width: 100px;height: 100px;"></image>
-    </div>
-    <div style="width: 96%;justify-content: space-between;margin-left: 10px">
-        <text>
-            <span style="color: white;font-weight: bold;font-size: 45px;">消息</span>
-            <span style="color: white;font-size: 25px;">(35)</span>
-            <span style="font-size: 20px;color: gray;">清除未读</span>
-        </text>
-        <div>
-            <image src="/assets/icon/my.png" style="width: 40px;height: 40px;"></image>
-            <image src="/Img/plus.png" style="width: 40px;height: 40px;"></image>
+
+    <div style="flex-direction: column;z-index: 9999;position: fixed;">
+        <div style="align-items: flex-start;margin-left: 10px;">
+            <image src="/Img/tao.png" style="width: 100px;height: 100px;"></image>
+        </div>
+        <div style="width: 96%;justify-content: space-between;margin-left: 10px">
+            <text>
+                <span style="color: white;font-weight: bold;font-size: 45px;">消息</span>
+                <span style="color: white;font-size: 25px;">(7)</span>
+                <span style="font-size: 20px;color: gray;">清除未读</span>
+            </text>
+            <div>
+                <image src="/assets/icon/my.png" style="width: 40px;height: 40px;"></image>
+                <image src="/Img/plus.png" style="width: 40px;height: 40px;"></image>
+            </div>
         </div>
     </div>
 
+
     <div class="search" style="width: 96%;margin-left: 10px;">
-        <input type="text"  headericon="/assets/icon/search.png" placeholder="搜索" style="background-color: white;"></input>
+        <input type="text"  onchange ="change" headericon="/assets/icon/search.png" placeholder="搜索" style="background-color: white;"></input>
     </div>
 
 
     <div  style="width: 100%;height: 100%;background-color: white;margin-top: 10px;border-radius: 20px;flex-direction: column;">
 
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
 
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
+        <div style="width: 96%;margin-left: 15px;margin-top: 10px;flex-direction: column;">
 
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
+        <!--                用for 布局会出错-->
+        <!--            油画旗舰店-->
+        <!--            Leaftree旗舰店-->
+            <div for = "{{message_shop}}" style="" if="{{this.value.length == 0 ? true : this.value == $item.Title }}">
+                <div style="width: 96%;height: 120px;margin-left: 15px;margin-top: 10px;">
 
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
+                    <image src="{{ $item.url }}" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
+
+                    <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
+                        <div>
+                            <text style="font-size: 30px;color: black;">{{ $item.Title }}</text>
+                            <text style="left: 300px;font-size: 25px;color: gray;">{{ $item.date }}</text>
+                        </div>
+
+                        <div style="margin-top: 10px;">
+                            <text style="font-size: 25px;color: gray;">{{ $item.message }}</text>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--        </div>-->
+
+        <!--        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">-->
+
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--        </div>-->
+
+        <!--        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">-->
+
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--        </div>-->
+
+
+        <!--        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">-->
+
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--        </div>-->
+
+
+        <!--        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">-->
+
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
+
+
+        <!--        </div>-->
+
+        <!--        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">-->
+
+        <!--            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
+
+        <!--            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
+        <!--                <div style="justify-content: space-between;">-->
+        <!--                    <text>Leaftree旗舰店</text>-->
+        <!--                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>-->
+        <!--                </div>-->
+
+        <!--                <div style="margin-top: 10px;">-->
+        <!--                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>-->
+        <!--                </div>-->
+        <!--            </div>-->
 
 
         </div>
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-<!--                用for 布局会出错-->
-<!--            <div for = "{{message_shop}}">-->
-<!--                <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;background-color: green;">-->
-
-<!--                    <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>-->
-
-<!--                    <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">-->
-<!--                        <div>-->
-<!--                            <text>{{ $item.title }}</text>-->
-<!--                            <text style="left: 300px;font-size: 25px;color: gray;">{{ $item.date }}</text>-->
-<!--                        </div>-->
-
-<!--                        <div style="margin-top: 10px;">-->
-<!--                            <text style="font-size: 25px;color: gray;">{{ $item.message }}</text>-->
-<!--                        </div>-->
-<!--                    </div>-->
-
-<!--                </div>-->
-<!--            </div>-->
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-        <div style="width: 96%;height: 100px;margin-left: 15px;margin-top: 10px;border-bottom-color: gray;border-bottom-width: 1px;">
-
-            <image src="/Img/Leaftree.png" style="border-radius: 100px;width: 80px;height: 80px;margin-top: 10px;"></image>
-
-            <div style="flex-direction: column;margin-top: 10px;margin-left: 5px;">
-                <div style="justify-content: space-between;">
-                    <text>Leaftree旗舰店</text>
-                    <text style="left: 300px;font-size: 25px;color: gray;">星期一</text>
-                </div>
-
-                <div style="margin-top: 10px;">
-                    <text style="font-size: 25px;color: gray;">如果消息较多打扰到您。可以点此拒收消息</text>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-
-
-
     </div>
 </div>
