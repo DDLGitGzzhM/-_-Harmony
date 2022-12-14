@@ -1,0 +1,162 @@
+<div class="container">
+    <div style="align-items: flex-start;margin-left: 10px">
+        <image src="/Img/tao.png" style="width: 100px;height: 100px;"></image>
+    </div>
+    <div style="width: 96%;justify-content: space-between;margin-left: 10px">
+        <text>
+            <span style="color: white;font-weight: bold;font-size: 45px;">购物车</span>
+            <span style="color: white;font-size: 25px;">(35)</span>
+        </text>
+        <text>
+            <span style="color: white;font-weight: bold;font-size: 25px;">XX</span>
+            <span style="color: white;font-size: 25px;">管理</span>
+        </text>
+    </div>
+    <div class = "store_container" style="width: 100%;height: 100%;background-color: white;margin-top: 10px;border-radius: 40px;flex-direction: column;">
+        <div style="justify-content: space-around;width: 100%;margin-left: 10px;margin-top: 10px;">
+            <div style="height: 40px;width: 120px;background-color: gray;border-radius: 40px;align-items: center;">
+                <text style="font-size: 15px;">每满300减40</text>
+            </div>
+            <div style="height: 40px;width: 120px;background-color: gray;border-radius: 40px;align-items: center;">
+                <text style="font-size: 15px;">每满200减30</text>
+            </div>
+            <div style="height: 40px;width: 120px;background-color: gray;border-radius: 40px;align-items: center;">
+                <text style="font-size: 15px;">降价</text>
+            </div>
+        </div>
+
+        <div style="flex-direction: column;width: 100%;">
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 30px;"></image>
+                <text  style="margin-top: 30px;margin-left: 20px;">Leaftree旗舰店</text>
+                <image src="/assets/icon/ge.png" style="width: 40px;height: 40px;margin-top: 30px;"></image>
+            </div>
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 60px;"></image>
+
+                <image src="/Img/Leaftree.png" style="width: 150px;height: 150px;margin-top: 10px;margin-left: 20px;border-radius: 20px;"></image>
+                <div style="margin-top: 10px;margin-left: 20px;flex-direction: column;">
+                    <text>展示锡纸烤箱空气炸锅</text>
+                    <text style="margin-top: 10px;font-size: 25px;color: silver;">【经典款】长10米 *宽30cm</text>
+                    <div style="margin-left: 3%;width: 300px;margin-top: 10px;justify-content:space-between;">
+                        <text style="font-size: 50px;color: rgb(255,76,0);">¥7.3</text>
+                        <button value="x1" style="color: white;width: 40px;height: 40px;margin-top: 10px;"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div style="flex-direction: column;width: 100%;">
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 30px;"></image>
+                <text  style="margin-top: 30px;margin-left: 20px;">Leaftree旗舰店</text>
+                <image src="/assets/icon/ge.png" style="width: 40px;height: 40px;margin-top: 30px;"></image>
+            </div>
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 60px;"></image>
+
+                <image src="/Img/Leaftree.png" style="width: 150px;height: 150px;margin-top: 10px;margin-left: 20px;border-radius: 20px;"></image>
+                <div style="margin-top: 10px;margin-left: 20px;flex-direction: column;">
+                    <text>展示锡纸烤箱空气炸锅</text>
+                    <text style="margin-top: 10px;font-size: 25px;color: silver;">【经典款】长10米 *宽30cm</text>
+                    <div style="margin-left: 3%;width: 300px;margin-top: 10px;justify-content:space-between;">
+                        <text style="font-size: 50px;color: rgb(255,76,0);">¥7.3</text>
+                        <button value="x1" style="color: white;width: 40px;height: 40px;margin-top: 10px;"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div style="flex-direction: column;width: 100%;">
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 30px;"></image>
+                <text  style="margin-top: 30px;margin-left: 20px;">Leaftree旗舰店</text>
+                <image src="/assets/icon/ge.png" style="width: 40px;height: 40px;margin-top: 30px;"></image>
+            </div>
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 60px;"></image>
+
+                <image src="/Img/Leaftree.png" style="width: 150px;height: 150px;margin-top: 10px;margin-left: 20px;border-radius: 20px;"></image>
+                <div style="margin-top: 10px;margin-left: 20px;flex-direction: column;">
+                    <text>展示锡纸烤箱空气炸锅</text>
+                    <text style="margin-top: 10px;font-size: 25px;color: silver;">【经典款】长10米 *宽30cm</text>
+                    <div style="margin-left: 3%;width: 300px;margin-top: 10px;justify-content:space-between;">
+                        <text style="font-size: 50px;color: rgb(255,76,0);">¥7.3</text>
+                        <button value="x1" style="color: white;width: 40px;height: 40px;margin-top: 10px;"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div style="flex-direction: column;width: 100%;">
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 30px;"></image>
+                <text  style="margin-top: 30px;margin-left: 20px;">Leaftree旗舰店</text>
+                <image src="/assets/icon/ge.png" style="width: 40px;height: 40px;margin-top: 30px;"></image>
+            </div>
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 60px;"></image>
+
+                <image src="/Img/Leaftree.png" style="width: 150px;height: 150px;margin-top: 10px;margin-left: 20px;border-radius: 20px;"></image>
+                <div style="margin-top: 10px;margin-left: 20px;flex-direction: column;">
+                    <text>展示锡纸烤箱空气炸锅</text>
+                    <text style="margin-top: 10px;font-size: 25px;color: silver;">【经典款】长10米 *宽30cm</text>
+                    <div style="margin-left: 3%;width: 300px;margin-top: 10px;justify-content:space-between;">
+                        <text style="font-size: 50px;color: rgb(255,76,0);">¥7.3</text>
+                        <button value="x1" style="color: white;width: 40px;height: 40px;margin-top: 10px;"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div style="flex-direction: column;width: 100%;" for="{{detail}}">
+
+            <div>
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 30px;"></image>
+                <text  style="margin-top: 30px;margin-left: 20px;">{{ $item.title }}</text>
+                <image src="/assets/icon/ge.png" style="width: 40px;height: 40px;margin-top: 30px;"></image>
+            </div>
+
+            <div style="width: 100%;">
+                <image src="/assets/icon/radio.png" style="width: 40px;height: 40px;margin-left: 50px;margin-top: 60px;"></image>
+
+                <image src="{{ $item.image }}" style="width: 150px;height: 150px;margin-top: 10px;margin-left: 20px;border-radius: 20px;"></image>
+                <div style="margin-top: 10px;margin-left: 20px;flex-direction: column;">
+                    <text>{{ $item.Detail }}</text>
+                    <text style="margin-top: 10px;font-size: 25px;color: silver;">【经典款】长10米 *宽30cm</text>
+                    <div style="margin-left: 3%;width: 300px;margin-top: 10px;justify-content:space-between;">
+                        <text style="font-size: 50px;color: rgb(255,76,0);">{{ $item.price }}</text>
+                        <button value="x1" style="color: white;width: 40px;height: 40px;margin-top: 10px;"></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

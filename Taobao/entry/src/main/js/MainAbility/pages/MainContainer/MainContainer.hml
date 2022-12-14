@@ -1,0 +1,33 @@
+<element src="../Mainpage/Mainpage.hml" name="mainpage"></element>
+<!--<element src="../Mine/Mine.hml" name="mine"></element>-->
+<element src="../userCenter/userCenter.hml" name="mine"></element>
+<element src="../Message/Message.hml" name="message"></element>
+<element src="../Shopping/Shopping.hml" name="shopping"></element>
+<element src="../Mainpage_Title/Mainpage_Title.hml" name="mainpage_title"></element>
+<div class="container">
+
+    <block if="{{ flag == 1}}">
+        <mainpage_title></mainpage_title>
+    </block>
+
+
+    <block if="{{ flag == 2}}">
+        <message></message>
+    </block>
+
+    <block if="{{ flag == 3}}">
+        <shopping></shopping>
+    </block>
+
+    <block if="{{ flag == 4}}">
+        <mine></mine>
+    </block>
+
+    <toolbar style="position : fixed; bottom : 0px;">
+    <!--  后期肯定要改 图标的 icon/{{ flag == 1 ? "xxx.png" : "xxx.png"}} -->
+        <toolbar-item icon='/Img/home.png' value='首页' on:click="changebar(1)"></toolbar-item>
+        <toolbar-item icon='/Img/wechat.png' value='消息' on:click="changebar(2)"></toolbar-item>
+        <toolbar-item icon='/Img/cart.png' value='购物车' on:click="changebar(3)"></toolbar-item>
+        <toolbar-item icon='/Img/mytb.png' value='我的淘宝' on:click="changebar(4)"></toolbar-item>
+    </toolbar>
+</div>

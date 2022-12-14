@@ -1,0 +1,58 @@
+<element src="../ShoppingDetail/ShoppingDetail.hml" name="shopping"></element>
+<div class="container">
+
+    <div class="search" style="flex-direction: row;height: 100px;">
+        <image src="/assets/icon/le.png" style="width: 30px;height: 30px;margin-top: 30px;"></image>
+        <input type="text"  headericon="" placeholder="周杰伦" style="background-color: white;margin-top: 20px;width: 500px;height: 50px;"></input>
+        <image src="/Img/cart.png" style="width: 40px;height: 40px;margin-top: 25px; margin-left: 10px;"></image>
+    </div>
+
+<!--    <div class = "store_container" style="width: 100%;height: 100%;background-color: rgb(240,240,240);margin-top: 10px;align-content: flex-start;flex-wrap: wrap;">-->
+<!--        <div class="play_img" style="width: 100%;height:300px;margin-top:60px;background-color: white;border-radius: 50px;">-->
+<!--            <swiper cachedsize="-1" scrolleffect="spring" id = "ti_swiper" style="indicator-color: gray;indicator-selected-color: white;indicator-left: 10px;">-->
+<!--                <image src="/Img/R101/1.JPG"></image>-->
+<!--                <image src="/Img/R101/2.JPG"></image>-->
+<!--                <image src="/Img/R101/3.JPG"></image>-->
+<!--                <image src="/Img/R101/4.JPG"></image>-->
+<!--                <image src="/Img/R101/5.JPG"></image>-->
+<!--            </swiper>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+    <shopping>
+
+    </shopping>
+
+
+    <div style="position: fixed;bottom: 0px;z-index: 9999;height: 80px;width: 100%;justify-content: space-around;background-color: white;">
+        <div style="flex-direction: column;">
+            <image src="/Img/home.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">首页</text>
+        </div>
+
+        <div style="flex-direction: column;">
+            <image src="/Img/客服.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">客服</text>
+        </div>
+
+        <div style="flex-direction: column;">
+            <image src="/Img/收藏.png" style="width: 50px;height: 50px;margin-top: 5px;"></image>
+            <text style="font-size: 20px;">收藏</text>
+        </div>
+
+        <div>
+            <div style="flex-direction: column;width: 160px;height: 300px;" on:click="gouwuche">
+                <image src="/Img/加入购物车.png" style="width: 160px;height: 150px;margin-top: 5px;border-top-left-radius: 50px;border-bottom-left-radius: 50px;"></image>
+                <text style="font-size: 20px;">加入购物车</text>
+            </div>
+
+            <div style="flex-direction: column;width: 160px;height: 200px;">
+                <image src="/Img/立即购买.png" style="width: 160px;height: 100px;margin-top: 5px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;"></image>
+                <text style="font-size: 20px;">立即购买</text>
+            </div>
+        </div>
+    </div>
+
+
+</div>

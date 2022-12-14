@@ -1,0 +1,72 @@
+{
+  "app": {
+    "vendor": "example",
+    "bundleName": "com.example.taobao",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "mainAbility": ".MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "srcPath": "MainAbility",
+        "name": ".MainAbility",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
+        "label": "$string:MainAbility_label",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.taobao",
+    "name": ".entry",
+    "js": [
+      {
+        "pages": [
+          "pages/MainChoose_1/MainChoose_1",
+          "pages/MainChoose_2/MainChoose_2",
+          "pages/Mainpage/Mainpage",
+          "pages/Login/Login",
+          "pages/Mainpage_Title/Mainpage_Title",
+          "pages/Message/Message",
+          "pages/Shopping/Shopping",
+          "pages/ShoppingDetail/ShoppingDetail",
+          "pages/ShoppingDetail_Container/ShoppingDetail_Container",
+          "pages/userCenter/userCenter",
+          "pages/MainContainer/MainContainer"
+        ],
+        "name": ".MainAbility",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      }
+    ]
+  }
+}

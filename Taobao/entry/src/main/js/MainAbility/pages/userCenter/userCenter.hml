@@ -1,0 +1,341 @@
+<div class="container">
+    <div class="userData">
+        <div class="userDataUp">
+            <image class="avatar" src="../../assets/temp/avatar.jpg"></image>
+            <div class="detail">
+                <text class="item">
+                    <span class="nickname">昵称</span>
+                </text>
+                <div class="frilist" @click="showQRcode">
+                    <text>
+                        <span>账号名：</span>
+                        <span>tb123456789</span>
+                    </text>
+                    <image class="QRcode" src="../../assets/icon/qr-code.png"></image>
+                </div>
+                <div class="frilist">
+                    <text>
+                        <span>关注</span>
+                        <span>0</span>
+                    </text>
+                    <text>|</text>
+                    <text>
+                        <span>粉丝</span>
+                        <span>0</span>
+                    </text>
+                    <text>|</text>
+                    <text>
+                        <span>好友</span>
+                        <span>0</span>
+                    </text>
+
+                </div>
+
+            </div>
+            <div class="block">
+                <image class="icon" src="../../assets/icon/service.png"></image>
+                <text class="item">官方客服</text>
+            </div>
+            <div class="block">
+                <image class="icon" src="../../assets/icon/settings.png"></image>
+                <text class="item">设置</text>
+            </div>
+        </div>
+        <div class="vipCenter">
+            <text class="vipText1">
+                会员中心
+            </text>
+            <text class="vipText2">
+                开通88VIP享天猫超市95折
+            </text>
+            <button class="vipBtn">去开通</button>
+        </div>
+        <div class="userDataDown">
+            <div class="list1">
+                <div class="block">
+                    <image class="icon" src="../../assets/icon/star.png"></image>
+                    <text class="item">收藏</text>
+                </div>
+                <div class="block">
+                    <image class="icon" src="../../assets/icon/check.png"></image>
+                    <text class="item">订阅店铺</text>
+                </div>
+                <div class="block">
+                    <image class="icon" src="../../assets/icon/history.png"></image>
+                    <text class="item">足迹</text>
+                </div>
+                <div class="block">
+                    <image class="icon" src="../../assets/icon/wallet.png"></image>
+                    <text class="item">零钱</text>
+                </div>
+            </div>
+            <div class="list2">
+                <div class="orderTitle">
+                    <text class="order">我的订单</text>
+                    <text class="gray">全部></text>
+                </div>
+                <div class="orderList">
+                    <div class="block2">
+                        <image class="icon" src="../../assets/icon/card.png"></image>
+                        <text>待付款</text>
+                    </div>
+                    <div class="block2">
+                        <image class="icon" src="../../assets/icon/package.png"></image>
+                        <text>待发货</text>
+                    </div>
+                    <div class="block2">
+                        <image class="icon" src="../../assets/icon/truck.png"></image>
+                        <text>待收货</text>
+                    </div>
+                    <div class="block2">
+                        <image class="icon" src="../../assets/icon/comment.png"></image>
+                        <text class="item">待评价</text>
+                    </div>
+                    <div class="block2">
+                        <image class="icon" src="../../assets/icon/refund.png"></image>
+                        <text>退款/售后</text>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list3">
+                <div class="l3Title">
+                    <text class="l3Titletext">全民淘宝节</text>
+                    <button class="l3Btn">天猫主会场</button>
+                </div>
+                <div class="l3List">
+                    <div class="block3">
+                        <image class="img" src="../../assets/icon/circle.png"></image>
+                        <text class="l3Text">淘宝主会场</text>
+                    </div>
+                    <div class="block3">
+                        <image class="img" src="../../assets/icon/circle.png"></image>
+                        <text class="l3Text">淘宝神店榜</text>
+                    </div>
+                    <div class="block3">
+                        <image class="img" src="../../assets/icon/circle.png"></image>
+                        <text class="l3Text">品质好货</text>
+                    </div>
+                    <div class="block3">
+                        <image class="img" src="../../assets/icon/circle.png"></image>
+                        <text class="l3Text">我的双12</text>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list4">
+                <div class="orderTitle">
+                    <text class="order">我的权益</text>
+                    <text class="gray">全部></text>
+                </div>
+                <swiper class="swiper">
+                    <div class="list4Content">
+                        <div class="orderList">
+                            <div class="block4">
+                                <text>
+                                    <span>¥</span>
+                                    <span class="largeFont">0.</span>
+                                    <span class="smallFont">00</span>
+                                </text>
+                                <text>红包</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+
+                                    <span class="largeFont">0</span>
+                                    <span>张</span>
+                                </text>
+                                <text>优惠券</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+                                    <span>开通享¥</span>
+                                    <span class="largeFont">74</span>
+                                </text>
+                                <text>淘宝省钱卡</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+                                    <span>¥</span>
+                                    <span class="largeFont">0.</span>
+                                    <span class="smallFont">00</span>
+                                </text>
+                                <text class="item">淘金币可抵</text>
+                            </div>
+                        </div>
+                        <div class="banners">
+                            <div>
+                                <image class="redPocket" src="../../assets/icon/red-pocket.png"></image>
+                                <text class="redPocketText1">
+                                    您的省钱卡已到期！续费立刻领红包
+                                </text>
+                            </div>
+                            <text class="redPocketText2">去领取></text>
+                        </div>
+                    </div>
+                    <div class="list4Content">
+                        <div class="orderList">
+                            <div class="block4">
+                                <text>
+                                    <span class="largeFont">20.</span>
+                                    <span class="smallFont">00</span>
+                                    <span>克</span>
+                                </text>
+                                <text>88碳账户</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+                                    <span>立得</span>
+                                    <span class="largeFont">1</span>
+                                    <span>件</span>
+                                </text>
+                                <text>数字藏品</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+                                    <span class="largeFont">0</span>
+                                </text>
+                                <text>天猫积分</text>
+                            </div>
+                            <div class="block4">
+                                <text>
+                                    <span>立减¥</span>
+                                    <span class="largeFont">5</span>
+                                    <span>起</span>
+                                </text>
+                                <text class="item">银行卡福利</text>
+                            </div>
+
+                        </div>
+                        <div class="banners">
+                            <div>
+                                <image class="redPocket" src="../../assets/icon/red-pocket.png"></image>
+                                <text class="redPocketText1">
+                                    您的省钱卡已到期！续费立刻领红包
+                                </text>
+                            </div>
+                            <text class="redPocketText2">去领取></text>
+                        </div>
+                    </div>
+                </swiper>
+
+            </div>
+
+            <div class="list5">
+                <swiper class="swiper">
+                    <div class="l5Content">
+                        <div class="l5List">
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/farm.png"></image>
+                                <text>芭芭农场</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/life.png"></image>
+                                <text>淘宝人生</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/xiao.png"></image>
+                                <text>火爆连连消</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/ddz.png"></image>
+                                <text class="item">斗地主</text>
+                            </div>
+                        </div>
+                        <div class="l5List">
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/cainiao.png"></image>
+                                <text>我的快递</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/cash.png"></image>
+                                <text>一起摇现金</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/getTry.png"></image>
+                                <text>试用领取</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/quan.png"></image>
+                                <text>领券中心</text>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l5Content">
+                        <div class="l5List">
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/xll.png"></image>
+                                <text>小流浪旅社</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/reward.png"></image>
+                                <text>成就奖励</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/house.png"></image>
+                                <text>大房东</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/majiang.png"></image>
+                                <text>四川麻将</text>
+                            </div>
+                        </div>
+                        <div class="l5List">
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/myComment.png"></image>
+                                <text>我的评价</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/transmoney.png"></image>
+                                <text>闲置换钱</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/phone.png"></image>
+                                <text>充话费</text>
+                            </div>
+                            <div class="block5">
+                                <image class="icon1" src="../../assets/icon/more.png"></image>
+                                <text>更多频道</text>
+                            </div>
+                        </div>
+                    </div>
+                </swiper>
+            </div>
+
+            <div class="sw">
+                <swiper class="swiper">
+                    <div class="imgDis">
+                        <image class="img1" src="../../assets/icon/1212.png"></image>
+                    </div>
+                    <div class="imgDis">
+                        <image class="img1" src="../../assets/icon/WorldCup.png"></image>
+                    </div>
+                </swiper>
+            </div>
+            <div>
+            <!--    <div>-->
+            <!--        <text class="tittle">横向展示</text>-->
+            <!--        <tabs class="tabs" onchange="tabChange">-->
+            <!--            <tab-bar class="tabBar">-->
+            <!--                <text class="tabBarItem">页签1</text>-->
+            <!--                <text class="tabBarItem">页签2</text>-->
+            <!--                <text class="tabBarItem">页签3</text>-->
+            <!--            </tab-bar>-->
+            <!--            <tab-content class="tabContent">-->
+            <!--                <div class="tabContentItem">-->
+            <!--                    <text>内容1</text>-->
+            <!--                </div>-->
+            <!--                <div class="tabContentItem">-->
+            <!--                    <text>内容2</text>-->
+            <!--                </div>-->
+            <!--                <div class="tabContentItem">-->
+            <!--                    <text>内容3</text>-->
+            <!--                </div>-->
+            <!--            </tab-content>-->
+            <!--        </tabs>-->
+            <!--    </div>-->
+            </div>
+        </div>
+
+    </div>
+</div>

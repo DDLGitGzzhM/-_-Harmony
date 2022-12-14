@@ -1,0 +1,21 @@
+<div class="container">
+
+    <div class="pic">
+        <image  id = "p1" src="https://img2.woyaogexing.com/2022/02/21/5831daf62f54429cbd22c9cd076acd37!400x400.jpeg" alt="头像"></image>
+    </div>
+
+    <div class = "imsg">
+        <input  id = 'input' type="text" placeholder="User"></input>
+        <input  id = 'input' type="password" placeholder="Password"></input>
+    </div>
+    <div style="width: 80%; justify-content: space-between;">
+        <text style="font-size: 16px; color: #ff5791fa;">忘记密码</text>
+
+        <text style="font-size: 16px; color: #ff5791fa;">快速注册</text>
+    </div>
+
+    <button id = "login_btn" on:click="login">
+        登录
+    </button>
+
+</div>

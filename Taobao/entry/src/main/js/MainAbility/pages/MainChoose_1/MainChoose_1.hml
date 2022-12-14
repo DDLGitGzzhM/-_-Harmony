@@ -1,0 +1,47 @@
+<div class="container">
+    <div style="width: 95%;margin-top: 20px;justify-content: space-between;">
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/天猫U选.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">天猫优选</text>
+        </div>
+        <div   style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/天天特卖.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">天天特卖</text>
+        </div>
+        <div   style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/粑粑农场.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">芭芭农场</text>
+        </div>
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/天猫国际.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">天猫国际</text>
+        </div>
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/天猫超时.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">天猫超市</text>
+        </div>
+    </div>
+    <div style="width: 95%;margin-top: 20px;justify-content: space-between;">
+
+        <div   style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/重置中心.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">重置中心</text>
+        </div>
+        <div   style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/吃货.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">吃货</text>
+        </div>
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/淘宝金币.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">淘宝金币</text>
+        </div>
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/天猫买药.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">天猫买药</text>
+        </div>
+        <div  style="flex-direction: column;justify-content: center;align-content: center;">
+            <image src = "/Img/分类.png" style="width: 100px;height: 100px;"></image>
+            <text style="font-size: 26px;">分类</text>
+        </div>
+    </div>
+</div>
