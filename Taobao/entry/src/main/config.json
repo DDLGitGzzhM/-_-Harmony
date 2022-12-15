@@ -59,7 +59,8 @@
           "pages/ShoppingDetail/ShoppingDetail",
           "pages/ShoppingDetail_Container/ShoppingDetail_Container",
           "pages/userCenter/userCenter",
-          "pages/MainContainer/MainContainer"
+          "pages/MainContainer/MainContainer",
+          "pages/orderConfirm/orderConfirm"
         ],
         "name": ".MainAbility",
         "window": {

@@ -30,6 +30,8 @@ export default {
         })
     },
     lijigoumai(){
-
+        router.push ({
+            uri: 'pages/orderConfirm/orderConfirm',
+        });
     }
 }

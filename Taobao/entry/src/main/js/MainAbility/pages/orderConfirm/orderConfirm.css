@@ -1,0 +1,325 @@
+.container {
+    display: flex;
+    flex-direction: column;/*    justify-content: center;*/
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 239, 239);/*    overflow: hidden ;*/
+
+/*    flex: 1 0;*/
+/*    height: 0;*/
+    flex-wrap: nowrap;
+
+}
+
+.top{
+    width: 100%;
+    height: 110px;
+    padding: 50px 20px 0px 20px ;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    position: fixed;
+    left:0;
+    top: 0;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-right: 10px;
+}
+.back{
+    width: 32px;
+    height:32px
+
+}
+.inner{
+    width: 30px;
+    height:30px
+}
+
+.main {
+    display: flex;
+    flex-direction: column;/*    justify-content: center;*/
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(239, 239, 239);
+    overflow: scroll;/*    flex: 1 0;*/
+/*    height: 0;*/
+    flex-wrap: nowrap;
+}
+
+.address {
+    width: 96%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin-top: 130px;
+    padding: 30px 0px 0px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;/*    overflow: hidden ;*/
+/*    overflow:scroll;*/
+}
+
+.addre {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.addressText {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.userText {
+    font-size: 28px;
+    color: rgb(138, 138, 138);
+}
+
+.addressText1 {
+    font-size: 30px;
+}
+
+.goods {
+    width: 96%;
+    height: 890px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 35px 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;/*    overflow:scroll;*/
+}
+
+.storeImg {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.storeName {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 43px;
+}
+
+.goodImg {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+}
+
+.good {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;/*    align-content: space-between;*/
+/*    justify-content: space-between;*/
+    width: 100%;
+    height: 180px;
+    margin-top: 40px;
+}
+
+.detail {
+    display: flex;
+    width: 70%;
+    height: 180px;
+    flex-wrap: nowrap;
+    padding: 0px 0px 0px 20px;
+    flex-direction: column;/*    align-content: space-between;*/
+    justify-content: space-between;
+}
+
+.model {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: column;
+}
+
+.price {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;/*    justify-content: center;!*    align-content: space-between;*!*/
+
+    flex-direction: row;
+}
+
+.num {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;/*    align-items: center;*/
+    justify-content: space-between;/*    align-content: center;*/
+/*    justify-content: center;!*    align-content: space-between;*!*/
+
+    flex-direction: row;
+    font-size: 28px;
+    color: rgb(118, 117, 117);
+}
+
+.tag {
+    color: #F4511E;
+    width: 104px;
+    height: 33px;
+    border: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 10px;/*    align-content: center;*/
+    justify-content: center;
+    border-radius: 5px;
+    border-color: #F4511E;/*    margin-top: 70px;*/
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.count {
+    justify-content: flex-end;
+}
+
+.getOne {
+    width: 96%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.detail1 {
+    display: flex;/*    width: 600px;*/
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.getoneGood {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+
+.goGoodImg {
+    width: 180px;
+    height: 180px;
+}
+
+.tag1 {
+    color: #F4511E;
+    border-color: #F4511E;
+    width: 52px;
+    height: 33px;
+    border: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;/*    align-content: center;*/
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.yj {
+    text-decoration: line-through;
+    font-size: 20px;
+    color: rgb(118, 117, 117);
+}
+
+
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.block {
+    width: 100%;
+    font-size: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inBlock {
+    display: flex;
+    flex-direction: column;/*    justify-content: space-between;*/
+/*    align-content: space-between;*/
+    align-items: flex-end;
+    padding-right:10px ;
+}
+
+.choose {
+    display: flex;
+    flex-direction: column;
+    height: 570px;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+outBlock {
+    display: flex;
+    flex-direction: column;
+}
+.bottom{
+    width: 100%;
+    background-color: #fff;
+    height: 130px;
+    display: flex;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+.lastPrice{
+    display: flex;
+    height: 88px;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.submit{
+    width: 243px;
+    height: 88px;
+    background-color: #F4511E;
+    border-radius: 50px;
+    font-size: 32px;
+    font-weight: 600;
+}

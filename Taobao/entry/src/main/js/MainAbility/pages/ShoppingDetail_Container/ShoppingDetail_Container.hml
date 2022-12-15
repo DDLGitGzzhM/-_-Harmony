@@ -47,7 +47,7 @@
                 <text style="font-size: 20px;">加入购物车</text>
             </div>
 
-            <div style="flex-direction: column;width: 160px;height: 200px;">
+            <div style="flex-direction: column;width: 160px;height: 200px;" on:click="lijigoumai">
                 <image src="/Img/立即购买.png" style="width: 160px;height: 100px;margin-top: 5px;border-top-right-radius: 50px;border-bottom-right-radius: 50px;"></image>
                 <text style="font-size: 20px;">立即购买</text>
             </div>

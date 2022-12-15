@@ -1,0 +1,171 @@
+<div class="container">
+    <div class="main">
+        <div class="top">
+            <image class="back" src="../../assets/icon/arrow-left.png"></image>
+            <text style="font-size: 34px;">确认订单</text>
+            <div ><text></text></div>
+        </div>
+        <div class="address">
+            <div class="addre">
+                <div>
+                    <image class="icon" src="../../assets/icon/location.png"></image>
+                    <div class="location">
+                        <text class="addressText">幸福路28号</text>
+                        <text class="userText">秦小发 13703891966</text>
+                    </div>
+                </div>
+                <div>
+                    <text>></text>
+                </div>
+            </div>
+            <div class="addre">
+                <div>
+                    <image class="icon" src="../../assets/icon/add.png"></image>
+                    <text class="addressText1">支持选择多个收货地址</text>
+                </div>
+                <div>
+                    <text>></text>
+                </div>
+            </div>
+            <div class="add"></div>
+        </div>
+        <div class="goods" for="{{ goodList }}">
+
+            <div style="height: 50px;">
+                <image class="storeImg" src="../../assets/icon/{{ $item.storeImage }}"></image>
+                <text class="storeName">{{ $item.storeName }}</text>
+            </div>
+            <div class="good">
+                <image class="goodImg" src="../../assets/images/{{ $item.goodImage }}"></image>
+                <div class="detail">
+                    <div class="model">
+                        <div class="price">
+                            <text style="font-size: 28px;">{{ $item.describe }}</text>
+                            <div>
+                                <text style="font-size: 15px;">¥</text>
+                                <text style="font-size: 21px; font-weight: 600;">{{ $item.price }}</text>
+                            </div>
+                        </div>
+                        <div class="num">
+                            <text>{{ $item.model }}</text>
+                            <div>
+                                <text>×</text>
+                                <text style="font-size: 20px;">{{ $item.num }}</text>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tags">
+                        <div class="tag">
+                            <text>{{ $item.tag1 }}</text>
+                        </div>
+                        <div class="tag">
+                            <text>{{ $item.tag2 }}</text>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choose">
+                <div class="block">
+                    <text>配送服务</text>
+                    <div>
+                        <div style="margin-right: 10px; font-weight: 500;">
+                            <text>快递 免邮</text>
+                        </div>
+                        <image class="inner" src="../../assets/icon/arrow-right.png"></image>
+                    </div>
+
+                </div>
+
+                <div class="block">
+                    <text>运费险</text>
+                    <div class="outBlock">
+                        <div class="inBlock">
+                            <text style="font-weight: 500;">未选择</text>
+
+                            <text style="color: rgb(118, 117, 117);">退换货可赔付10元</text>
+                        </div>
+                        <image class="inner" src="../../assets/icon/arrow-right.png"></image>
+                    </div>
+
+                </div>
+                <div class="block">
+                    <text>店铺优惠</text>
+                    <div class="outBlock">
+                        <div class="inBlock">
+                            <text style="font-weight: 500;">无</text>
+
+                            <text style="color: rgb(118, 117, 117);">买法器还想要优惠??</text>
+                        </div>
+                        <image class="inner" src="../../assets/icon/arrow-right.png"></image>
+                    </div>
+                </div>
+                <div class="block">
+                    <text>开具发票</text>
+                    <div>
+                        <div style="margin-right: 10px; color: rgb(118, 117, 117);">
+                            <text>本次不开具发票</text>
+                        </div>
+                        <image class="inner" src="../../assets/icon/arrow-right.png"></image>
+                    </div>
+                </div>
+                <div class="block">
+                    <text>订单备注</text>
+                    <div>
+                        <div style="margin-right: 10px; color: rgb(118, 117, 117);">
+                            <text>无备注</text>
+                        </div>
+                        <image class="inner" src="../../assets/icon/arrow-right.png"></image>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="getOne">
+            <div class="title">
+                <text style="font-size: 31px; font-weight: 600;">顺手买1件</text>
+                <text style="font-size: 28px; color: rgb(118, 117, 117);">|来自皇家宠物食品旗舰店</text>
+            </div>
+            <div class="getoneGood">
+                <image class="goGoodImg" src="../../assets/images/ad.png"></image>
+                <div class="detail1">
+                    <text style="font-size: 28px;">中型犬成犬湿粮 ROYAL</text>
+                    <text style="font-size: 28px; color: rgb(118, 117, 117);">鸡肉味;100g;</text>
+                    <div class="check">
+                        <input type="checkbox"></input>
+                    </div>
+                    <div class="goPrice">
+                        <text style="font-size: 22px;">¥</text>
+                        <text style="font-size: 30px;font-weight: 500;">4.90</text>
+                        <div class="tag1">
+                            <text>包邮</text>
+                        </div>
+                        <text class="yj">¥30</text>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="lastPrice">
+                <div>
+                    <text style="font-size: 28px;font-weight: 600;margin-right: 10px;color: rgb(118, 117, 117);">共1件</text>
+
+                    <text style="font-size: 29px;font-weight: 600;">合计:</text>
+                    <text style="font-size: 26px;font-weight: 600;color:#F4511E">¥</text>
+                    <text style="font-size: 38px;font-weight: 600;color:#F4511E">659.06</text>
+                </div>
+                <div>
+                    <text style="font-size: 28px;color:#F4511E">共减¥0元</text>
+                </div>
+            </div>
+            <button class="submit" value="提交订单"></button>
+        </div>
+    </div>
+
+<!--    <div class="block2" for ="{{list2}}">-->
+<!--        <image class="icon" src="../../assets/icon/{{$item.image}}"></image>-->
+<!--        <text>{{$item.name}}</text>-->
+<!--    </div>-->
+</div>
